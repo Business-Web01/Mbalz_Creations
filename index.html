@@ -339,41 +339,6 @@
         <button onclick="addToCart('Colorful Jumbo Claw Clips', 50, 'qty-jumbo flower claws', 'color-colorful jumbo claw clips')">Add to Cart</button>
       </div>
       <div class="product">
-        <img src="tote1.jpg" alt="tote1">
-        <h3>Totebag Collection 1</h3>
-        <p>R100 for 1</p>
-        <input type="number" id="qty-tote1" value="1" min="1" />
-        <button onclick="addToCart('Tote1', 100, 'qty-tote1')">Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="tote2.jpg" alt="qty-tote2">
-        <h3>Totebag Collection 2</h3>
-        <p>R100 for 1</p>
-        <input type="number" id="qty-tote2" value="1" min="1" />
-        <button onclick="addToCart('Tote2', 100, 'qty-tote2')">Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="tote3.jpg" alt="tote3">
-        <h3>Totebag Collection 3</h3>
-        <p>R100 for 1</p>
-        <input type="number" id="qty-tote3" value="1" min="1" />
-        <button onclick="addToCart('Tote3', 100, 'qty-tote3')">Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="tote4.jpg" alt="tote4">
-        <h3>Totebag Collection 4</h3>
-        <p>R100 for 1</p>
-        <input type="number" id="qty-tote4" value="1" min="1" />
-        <button onclick="addToCart('Tote4', 100, 'qty-tote4')">Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="totes5.jpg" alt="tote5">
-        <h3>Totebag Collection 5</h3>
-        <p>R100 for 1 </p>
-        <input type="number" id="qty-tote5" value="1" min="1" />
-        <button onclick="addToCart('Tote5', 100, 'qty-tote5')">Add to Cart</button>
-      </div>
-      <div class="product">
         <img src="body mists.jpg" alt="body mists">
         <h3>Body Mists</h3>
         <p>R100 for 1</p>
@@ -386,14 +351,6 @@
         <p>R25</p>
         <input type="number" id="qty-lipglosses" value="1" min="1" />
         <button onclick="addToCart('Lipglosses', 25, 'qty-lipglosses')">Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="personalized mug.jpg" alt="personalized mug">
-        <h3>Personalized Mug (Without Code)</h3>
-        <p>R280</p>
-        <p>Designs to be chosen on WhatsApp!!</p>
-        <input type="number" id="qty-personalized mug" value="1" min="1" />
-        <button onclick="addToCart('Personalized Mug', 280, 'qty-personalized mug')">Add to Cart</button>
       </div>
       <div class="product">
         <img src="headbands.jpg" alt="headbands">
@@ -412,6 +369,27 @@
         <input type="number" id="qty-headbands" value="1" min="1" />
         <button onclick="addToCart('Headbands', 30, 'qty-headbands', 'color-headbands')">Add to Cart</button>
       </div>
+      <div class="product">
+        <img src="Personalized Initial Mug.jpg" alt="personalized initial mug">
+        <h3>Personalized Initial Mug</h3>
+        <p>R280</p>
+        <input type="number" id="try-personalized initial mug" value="1" min="1" />
+        <button onclick="addToCart('Personalized Initial Mug', 280, 'qty-personalized initial mug')">Add to Cart</button>
+      </div>
+<div class="product">
+        <img src="Mother's Day Mug 2.jpg" alt="mother's mug 2">
+        <h3>Mother's Day Mug 2</h3>
+        <p>R280</p>
+        <input type="number" id="try-mother's day mug 2" value="1" min="1" />
+        <button onclick="addToCart('Mother's Day Mug 2', 280, 'try-mother's day mug 2')">Add to Cart</button>
+      </div>
+<div class="product">
+        <img src="Mother's Day Mug.jpg" alt="mother's mug">
+        <h3>Mother's Day Mug 1</h3>
+        <p>R280</p>
+        <input type="number" id="try-mother's day mug" value="1" min="1" />
+        <button onclick="addToCart('Mother's Day Mug', 280, 'try-mother's day mug')">Add to Cart</button>
+</div>
       <div class="product">
         <img src="string ribbons.jpg" alt="String Ribbons">
         <h3>String Ribbons</h3>
@@ -434,12 +412,11 @@
     <h2>🛒 Your Order Summary</h2>
     <div id="cart-summary" style="border: 1px solid #eee; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; background-color: var(--accent-color);">
       <h3>Your Cart:</h3>
-      <p>Kindly Note:
+      <p>Note:
         We do not offer door-to-door delivery or meetups.
-        All orders are strictly delivered via PAXI for your convenience and security.
-        Thank you for your understanding.</p>
+        All orders are strictly delivered via PAXI.</p>
       <div id="cart-items"></div>
-      <p><strong>Delivery Option:</strong></p>
+      <p><strong>Delivery Options:</strong></p>
       <select id="delivery" onchange="updateCart()">
         <option value="110">7-9 Business Days via PAXI (R110)</option>
         <option value="60">3-5 Business Days via PAXI (R60)</option>
