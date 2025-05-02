@@ -419,14 +419,11 @@
     <h2>🛒 Your Order Summary</h2>
     <div id="cart-summary" style="border: 1px solid #eee; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; background-color: var(--accent-color);">
       <h3>Your Cart:</h3>
-      <p>Note:
-        We do not offer door-to-door delivery or meetups.
-        All orders are strictly delivered via PAXI.</p>
+      <p>Note:We do not offer door-to-door delivery or physical pick ups.</p>
       <div id="cart-items"></div>
-      <p><strong>Delivery Options:</strong></p>
+      <p><strong>Delivery Option:</strong></p>
       <select id="delivery" onchange="updateCart()">
-        <option value="110">7-9 Business Days via PAXI (R110)</option>
-        <option value="60">3-5 Business Days via PAXI (R60)</option>
+        <option value="110">3-5 Business Days via PAXI (R110)</option>
       </select>
       <p id="final-total" style="margin-top: 1rem; font-weight: bold;"></p>
     </div>
